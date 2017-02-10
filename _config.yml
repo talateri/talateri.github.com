@@ -1,3 +1,5 @@
 account: talateri
 gems:
   - jekyll-redirect-from
+
+theme: jekyll-theme-architect
