@@ -6,7 +6,7 @@
     setTimeout(Inc, 0);
   });
 
-  var r=100;
+  var r=5;
   var a=0;
   var cx=100;
   var cy=100;
@@ -17,6 +17,8 @@
     el.css('top', y + 'px');
     el.css('left', x + 'px');
     a +=0.03;
+    r +=0.03;
+
     setTimeout(Inc, 8);
   }
 
