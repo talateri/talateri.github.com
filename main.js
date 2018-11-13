@@ -12,6 +12,8 @@
   var cy=100;
 
   function Inc() {
+    if(r > 40)
+      return;
     var x = cx + r * Math.cos(a);
     var y = cy + r * Math.sin(a);
     el.css('top', y + 'px');
